@@ -99,7 +99,7 @@ Ensure that when you set up a device for a new Intune user, you configure it wit
 	- **Type of VPP account** - Choose from **Business** or **Education**.
 	- **Automatic app updates** - Choose from **On** to **Off** to enable automatic updates. When enabled, Intune detects the VPP app updates inside the app store and automatically pushes them to the device when the device checks in.
         > [!NOTE]
-		> Automatic app updates work for both device and user licensed apps for iOS Version 11.0 and above.
+		> Automatic app updates work for both device and user licensed apps for iOS Version 11.0 and above. App updates are going to be deployed automatically only for apps that are set with the Type "Required".
 6. When you are done, select **Create**.
 
 The token is displayed in the list of tokens pane.
